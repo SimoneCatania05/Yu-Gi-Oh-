@@ -210,6 +210,38 @@ button:hover {
     }
 }
 
+@media (max-width: 1920px) {
+    header{
+        margin-bottom: 20px;
+    }
+
+    #logo {
+        width: 17%;
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: 15px;
+    }
+    
+    #cart-summary2, #total-price{
+        font-size: 20px;
+    }
+    #cart-summary2{
+        margin-top: 70px;
+    }
+    .cart-item{
+        font-size: 20px;
+    }
+    .rimuovi{
+        font-size: 15px;
+    }
+
+    .fixed-scroll {
+        transform: translateY(-70px);
+    }
+}
+
 @media (max-width: 1440px) {
     header{
         margin-bottom: 20px;
